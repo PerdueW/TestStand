@@ -5,7 +5,7 @@
 <body>
 
 <?php
-	$conn = mysqli_connect('192.168.60.233', 'root', 'root', 'TestStandDB');
+	$conn = mysqli_connect('', '', '', '');
 	// Check connection
 	if (!$conn) 
 	{
