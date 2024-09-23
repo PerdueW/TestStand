@@ -2,10 +2,10 @@
 $conn = Null; 
 function connect()
 {
-	$dbhost = 'localhost';
-	$dbuser = 'root';
-	$dbpass = 'root';
-	$dbname = 'TestStandDB';
+	$dbhost = '';
+	$dbuser = '';
+	$dbpass = '';
+	$dbname = '';
  	$GLOBALS['conn ']= mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
 }
 
